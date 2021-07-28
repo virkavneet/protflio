@@ -1,0 +1,59 @@
+@import '../../assests/css/App.scss';
+
+.header-main{
+    .navbar{
+        background-color: $black;
+        .navbar-brand{
+            color: $white;
+            font-family: $caveat;
+            font-size: 36px;
+        }
+        .navbar-nav{
+            margin: auto;
+            .nav-item{
+                a{
+                    color: $white;
+                    font-family: $nunito;
+                    padding: 0 20px;
+                    font-size: 24px;
+                }
+            }
+        }
+        @media only screen and (max-width: 1540px) {
+            .navbar-brand{
+                 font-size: 33px;
+             }
+            .navbar-nav{
+                 .nav-item{
+                     a{
+                         font-size: 20px;
+                     }
+                 }
+             }
+         }
+        @media only screen and (max-width: 767px) {
+           .navbar-toggler-icon{
+               background-color: $white;
+               border-radius:5px;
+           }
+           .navbar-brand{
+                font-size: 30px;
+            }
+           .navbar-nav{
+                .nav-item{
+                    a{
+                        display: block;
+                        padding: 10px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            .navbar-brand{
+                margin-left: 18px;
+            }
+        }
+    }
+ 
+}

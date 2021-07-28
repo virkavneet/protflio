@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@200&family=Playfair+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@200&family=Playfair+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@200&family=Playfair+Display&display=swap);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+html, #root, body {
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+.purple-color {
+  color: #7F5AF0; }
+
+.header-main .navbar {
+  background-color: #000; }
+  .header-main .navbar .navbar-brand {
+    color: #fff;
+    font-family: "Caveat", cursive;
+    font-size: 36px; }
+  .header-main .navbar .navbar-nav {
+    margin: auto; }
+    .header-main .navbar .navbar-nav .nav-item a {
+      color: #fff;
+      font-family: "Nunito", sans-serif;
+      padding: 0 20px;
+      font-size: 24px; }
+  @media only screen and (max-width: 1540px) {
+    .header-main .navbar .navbar-brand {
+      font-size: 33px; }
+    .header-main .navbar .navbar-nav .nav-item a {
+      font-size: 20px; } }
+  @media only screen and (max-width: 767px) {
+    .header-main .navbar .navbar-toggler-icon {
+      background-color: #fff;
+      border-radius: 5px; }
+    .header-main .navbar .navbar-brand {
+      font-size: 30px; }
+    .header-main .navbar .navbar-nav .nav-item a {
+      display: block;
+      padding: 10px;
+      text-align: center; } }
+  @media only screen and (max-width: 480px) {
+    .header-main .navbar .navbar-brand {
+      margin-left: 18px; } }
+
+html, #root, body {
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+.purple-color {
+  color: #7F5AF0; }
+
+.home-banner {
+  position: relative;
+  padding: 10% 0;
+  color: #fff;
+  background-color: #000;
+  margin-top: 55px; }
+  .home-banner .banner-title {
+    font-size: 32px;
+    font-family: "Caveat", cursive; }
+  .home-banner .banner-desc {
+    width: 80%;
+    font-size: 52px;
+    font-family: "Playfair Display", serif; }
+  .home-banner .scroll-line {
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 15px;
+    right: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    line-height: 0; }
+    .home-banner .scroll-line:after {
+      position: absolute;
+      content: '';
+      height: 2px;
+      width: 160px;
+      background: #fff;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -175px; }
+  @media only screen and (max-width: 1540px) {
+    .home-banner .banner-title {
+      font-size: 28px; }
+    .home-banner .banner-desc {
+      width: 90%;
+      font-size: 45px; }
+    .home-banner .scroll-line {
+      font-size: 18px; }
+      .home-banner .scroll-line:after {
+        width: 100px;
+        left: -105px; } }
+  @media only screen and (max-width: 767px) {
+    .home-banner {
+      padding: 10% 5%; }
+      .home-banner .banner-title {
+        font-size: 24px; }
+      .home-banner .banner-desc {
+        width: 90%;
+        font-size: 40px; }
+      .home-banner .scroll-line {
+        font-size: 16px; } }
+  @media only screen and (max-width: 480px) {
+    .home-banner {
+      padding: 10% 5%; }
+      .home-banner .banner-title {
+        font-size: 22px; }
+      .home-banner .banner-desc {
+        font-size: 35px; }
+      .home-banner .scroll-line {
+        font-size: 14px; } }
+
+.work-detail {
+  background-color: #000;
+  color: #fff;
+  padding: 5% 0; }
+  .work-detail .work-heading {
+    position: relative;
+    padding-left: 165px;
+    font-size: 48px;
+    font-family: "Caveat", cursive; }
+    .work-detail .work-heading:before {
+      position: absolute;
+      content: '';
+      height: 2px;
+      width: 160px;
+      background: #fff;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0; }
+  .work-detail .work-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5% 0; }
+    .work-detail .work-info .work-time {
+      width: 40%;
+      padding: 5% 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .work-detail .work-info .work-time.right {
+        order: 1; }
+      .work-detail .work-info .work-time .work-date {
+        font-size: 72px;
+        font-family: "Playfair Display", serif;
+        color: rgba(255, 255, 254, 0.4); }
+      .work-detail .work-info .work-time .hr-line {
+        height: 150px;
+        width: 2px;
+        background-color: rgba(255, 255, 254, 0.4); }
+    .work-detail .work-info .work-description {
+      background-color: #24242B;
+      width: 60%;
+      border-radius: 10px;
+      padding: 5%; }
+      .work-detail .work-info .work-description .description-title {
+        font-size: 48px;
+        font-family: "Playfair Display", serif; }
+      .work-detail .work-info .work-description .description-link a {
+        color: #7F5AF0;
+        font-size: 18px;
+        font-family: "Nunito", sans-serif; }
+      .work-detail .work-info .work-description .description-info {
+        padding-top: 25px;
+        font-size: 24px;
+        font-family: "Nunito", sans-serif; }
+  @media only screen and (max-width: 1540px) {
+    .work-detail .work-heading {
+      padding-left: 105px;
+      font-size: 43px; }
+      .work-detail .work-heading:before {
+        width: 100px; }
+    .work-detail .work-info .work-time .work-date {
+      font-size: 62px; }
+    .work-detail .work-info .work-time .hr-line {
+      height: 100px; }
+    .work-detail .work-info .work-description .description-title {
+      font-size: 42px; }
+    .work-detail .work-info .work-description .description-link a {
+      font-size: 16px; }
+    .work-detail .work-info .work-description .description-info {
+      font-size: 20px;
+      line-height: normal; } }
+  @media only screen and (max-width: 767px) {
+    .work-detail {
+      padding: 10% 5%; }
+      .work-detail .work-heading {
+        padding-left: 105px;
+        font-size: 38px;
+        line-height: normal;
+        margin: 0; }
+        .work-detail .work-heading:before {
+          width: 100px; }
+      .work-detail .work-info {
+        padding: unset; }
+        .work-detail .work-info .work-time {
+          width: 100%; }
+          .work-detail .work-info .work-time.right {
+            order: 0; }
+          .work-detail .work-info .work-time .work-date {
+            font-size: 52px; }
+          .work-detail .work-info .work-time .hr-line {
+            height: 70px; }
+        .work-detail .work-info .work-description {
+          width: 100%; }
+          .work-detail .work-info .work-description .description-title {
+            font-size: 38px; }
+          .work-detail .work-info .work-description .description-link a {
+            font-size: 16px; }
+          .work-detail .work-info .work-description .description-info {
+            font-size: 18px;
+            padding-top: 15px; } }
+  @media only screen and (max-width: 480px) {
+    .work-detail .work-heading {
+      padding-left: 65px;
+      font-size: 33px; }
+      .work-detail .work-heading:before {
+        width: 60px; }
+    .work-detail .work-info .work-time .work-date {
+      font-size: 42px; }
+    .work-detail .work-info .work-time .hr-line {
+      height: 50px; }
+    .work-detail .work-info .work-description .description-title {
+      font-size: 34px; } }
+
+html, #root, body {
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+.purple-color {
+  color: #7F5AF0; }
+
+
+/*# sourceMappingURL=main.chunk.css.map*/
